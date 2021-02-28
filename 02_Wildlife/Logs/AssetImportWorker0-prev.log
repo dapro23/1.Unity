@@ -1,0 +1,323 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.0b7 (02180fe17a0e) revision 137231'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18363.1379; Version 1909; 64bit' Language: 'es' Physical Memory: 16342 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.0b7\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Utiles y Programas/1.Unity/Project BackUp/02_Wildlife
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50769
+Successfully changed project path to: D:/Utiles y Programas/1.Unity/Project BackUp/02_Wildlife
+D:/Utiles y Programas/1.Unity/Project BackUp/02_Wildlife
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 74.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.0b7 (02180fe17a0e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0b7/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Utiles y Programas/1.Unity/Project BackUp/02_Wildlife/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 980 Ti (ID=0x17c8)
+    Vendor:   NVIDIA
+    VRAM:     6097 MB
+    Driver:   27.21.14.5655
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0b7/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0b7/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0b7/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0b7/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001593 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 88.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.249 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005705 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.614 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2664 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3116.
+Total: 4.008000 ms (FindLiveObjects: 0.441500 ms CreateObjectMapping: 0.424000 ms MarkObjects: 3.024200 ms  DeleteObjects: 0.116400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(7ecf13d8992d33f4cb6c69d32e236c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(7ecf13d8992d33f4cb6c69d32e236c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13211aba22d4c728afb6b72462ae18d7') in 0.097790 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009573 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.831 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2659 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3118.
+Total: 2.044300 ms (FindLiveObjects: 0.225200 ms CreateObjectMapping: 0.155300 ms MarkObjects: 1.615200 ms  DeleteObjects: 0.047700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004479 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.128 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2659 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 98.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3120.
+Total: 3.104500 ms (FindLiveObjects: 0.337300 ms CreateObjectMapping: 0.155000 ms MarkObjects: 2.431600 ms  DeleteObjects: 0.177200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8296.604746 seconds.
+  path: Assets/Scripts/CheckCollisions.cs
+  artifactKey: Guid(5bd6c69bcd73d0d4eb80f6b4c86e9951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CheckCollisions.cs using Guid(5bd6c69bcd73d0d4eb80f6b4c86e9951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ec28cbae9dbd1ee1e09f56d43d7623') in 0.014109 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006642 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.910 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2659 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 98.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3122.
+Total: 22.119800 ms (FindLiveObjects: 0.842700 ms CreateObjectMapping: 1.186000 ms MarkObjects: 19.933500 ms  DeleteObjects: 0.155400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.582624 seconds.
+  path: Assets/Prefabs/Projectiles/Bottle.prefab
+  artifactKey: Guid(1c2108e87ebfb5640bf7b04076fdf51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Bottle.prefab using Guid(1c2108e87ebfb5640bf7b04076fdf51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d46d9ca7aacc00175ed372c58ff2371') in 0.113590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Prefabs/Projectiles/Pizza (Father).prefab
+  artifactKey: Guid(ed714c268ede8744a90b30f1e329fa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Pizza (Father).prefab using Guid(ed714c268ede8744a90b30f1e329fa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e9a7fcaf92d62a401a5ff41212a83c') in 0.013521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Prefabs/Projectiles/Sandwich.prefab
+  artifactKey: Guid(ec1e3e9ed0da08249806d7822a82ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Sandwich.prefab using Guid(ec1e3e9ed0da08249806d7822a82ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142ac34d7cc676489667c5e18739dd9d') in 0.019233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.581820 seconds.
+  path: Assets/Prefabs/Projectiles/Bottle.prefab
+  artifactKey: Guid(1c2108e87ebfb5640bf7b04076fdf51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Bottle.prefab using Guid(1c2108e87ebfb5640bf7b04076fdf51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd2ff7372d03d5e771528fc812b4781') in 0.011586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Prefabs/Projectiles/Pizza (Father).prefab
+  artifactKey: Guid(ed714c268ede8744a90b30f1e329fa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Pizza (Father).prefab using Guid(ed714c268ede8744a90b30f1e329fa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73167fa61c0b6ef856e279992f044563') in 0.010577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Prefabs/Projectiles/Sandwich.prefab
+  artifactKey: Guid(ec1e3e9ed0da08249806d7822a82ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Sandwich.prefab using Guid(ec1e3e9ed0da08249806d7822a82ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2f2137b128a2eb0863aeb2ed442298') in 0.014185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.339040 seconds.
+  path: Assets/Prefabs/Projectiles/Bottle.prefab
+  artifactKey: Guid(1c2108e87ebfb5640bf7b04076fdf51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Bottle.prefab using Guid(1c2108e87ebfb5640bf7b04076fdf51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1306c766262faf78076a53818404814e') in 0.015863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Prefabs/Projectiles/Pizza (Father).prefab
+  artifactKey: Guid(ed714c268ede8744a90b30f1e329fa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Pizza (Father).prefab using Guid(ed714c268ede8744a90b30f1e329fa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27bef97e85b4009649e781de41f8adac') in 0.010822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Prefabs/Projectiles/Sandwich.prefab
+  artifactKey: Guid(ec1e3e9ed0da08249806d7822a82ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Sandwich.prefab using Guid(ec1e3e9ed0da08249806d7822a82ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267ed3246039b809e983eb7437de8855') in 0.017085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.786742 seconds.
+  path: Assets/Prefabs/Projectiles/Bottle.prefab
+  artifactKey: Guid(1c2108e87ebfb5640bf7b04076fdf51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Bottle.prefab using Guid(1c2108e87ebfb5640bf7b04076fdf51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2def9333eeeca63cd72a1febd8b42dbb') in 0.014738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Prefabs/Projectiles/Pizza (Father).prefab
+  artifactKey: Guid(ed714c268ede8744a90b30f1e329fa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Pizza (Father).prefab using Guid(ed714c268ede8744a90b30f1e329fa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2ebd80b5746ae7907713eaa53e077b') in 0.011432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Prefabs/Projectiles/Sandwich.prefab
+  artifactKey: Guid(ec1e3e9ed0da08249806d7822a82ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Sandwich.prefab using Guid(ec1e3e9ed0da08249806d7822a82ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb171df9dab97397d0c7d5189d17a0ea') in 0.013474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.622584 seconds.
+  path: Assets/Prefabs/Projectiles/Bottle.prefab
+  artifactKey: Guid(1c2108e87ebfb5640bf7b04076fdf51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Bottle.prefab using Guid(1c2108e87ebfb5640bf7b04076fdf51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42709542c55f6e0a1a20219c6be37d4') in 0.011055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Prefabs/Projectiles/Pizza (Father).prefab
+  artifactKey: Guid(ed714c268ede8744a90b30f1e329fa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Pizza (Father).prefab using Guid(ed714c268ede8744a90b30f1e329fa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0167eba328eab529a90956b0e285c740') in 0.008955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Prefabs/Projectiles/Sandwich.prefab
+  artifactKey: Guid(ec1e3e9ed0da08249806d7822a82ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Sandwich.prefab using Guid(ec1e3e9ed0da08249806d7822a82ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b63a580397970162ff0783f40e730f8') in 0.009388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.568012 seconds.
+  path: Assets/Prefabs/Projectiles/Bottle.prefab
+  artifactKey: Guid(1c2108e87ebfb5640bf7b04076fdf51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Bottle.prefab using Guid(1c2108e87ebfb5640bf7b04076fdf51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4c28535b865264163b2ffbeaab2451') in 0.012560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Prefabs/Projectiles/Pizza (Father).prefab
+  artifactKey: Guid(ed714c268ede8744a90b30f1e329fa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Pizza (Father).prefab using Guid(ed714c268ede8744a90b30f1e329fa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332c2c68bc3dcc7d67c58a0ed01cf5ca') in 0.010478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Prefabs/Projectiles/Sandwich.prefab
+  artifactKey: Guid(ec1e3e9ed0da08249806d7822a82ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Sandwich.prefab using Guid(ec1e3e9ed0da08249806d7822a82ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ecf149906d9f9361544f0c96062da4c') in 0.009426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.999353 seconds.
+  path: Assets/Prefabs/Projectiles/Bottle.prefab
+  artifactKey: Guid(1c2108e87ebfb5640bf7b04076fdf51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Bottle.prefab using Guid(1c2108e87ebfb5640bf7b04076fdf51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fca8852f85f2fc602eb1b50f2031856') in 0.015414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Prefabs/Projectiles/Pizza (Father).prefab
+  artifactKey: Guid(ed714c268ede8744a90b30f1e329fa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Pizza (Father).prefab using Guid(ed714c268ede8744a90b30f1e329fa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d411e5f22e36c5b259af4e44a2ea68') in 0.010215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Prefabs/Projectiles/Sandwich.prefab
+  artifactKey: Guid(ec1e3e9ed0da08249806d7822a82ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Sandwich.prefab using Guid(ec1e3e9ed0da08249806d7822a82ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1a2b07883b71192ec7133e3e971c7d') in 0.008673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.944296 seconds.
+  path: Assets/Prefabs/Projectiles/Bottle.prefab
+  artifactKey: Guid(1c2108e87ebfb5640bf7b04076fdf51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Bottle.prefab using Guid(1c2108e87ebfb5640bf7b04076fdf51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2b3c64056f39c7b28adfbb5ad76b5e') in 0.014943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Prefabs/Projectiles/Pizza (Father).prefab
+  artifactKey: Guid(ed714c268ede8744a90b30f1e329fa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Pizza (Father).prefab using Guid(ed714c268ede8744a90b30f1e329fa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d897c95633a1d024b089a30ff12fdc') in 0.009755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Prefabs/Projectiles/Sandwich.prefab
+  artifactKey: Guid(ec1e3e9ed0da08249806d7822a82ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Sandwich.prefab using Guid(ec1e3e9ed0da08249806d7822a82ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0bc515a211e13a0d65e0e80ef594f97') in 0.013783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.753223 seconds.
+  path: Assets/Prefabs/Projectiles/Bottle.prefab
+  artifactKey: Guid(1c2108e87ebfb5640bf7b04076fdf51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Bottle.prefab using Guid(1c2108e87ebfb5640bf7b04076fdf51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d87f6b4c9976f5a8355332b6ae694d') in 0.011270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Prefabs/Projectiles/Pizza (Father).prefab
+  artifactKey: Guid(ed714c268ede8744a90b30f1e329fa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Pizza (Father).prefab using Guid(ed714c268ede8744a90b30f1e329fa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c997a7dd755d8ce3cc7b85920da22e') in 0.008938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Prefabs/Projectiles/Sandwich.prefab
+  artifactKey: Guid(ec1e3e9ed0da08249806d7822a82ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Sandwich.prefab using Guid(ec1e3e9ed0da08249806d7822a82ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5965a493f8b08bb478591905a56eb1c6') in 0.013405 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003828 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.820 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2659 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.2 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3131.
+Total: 3.423000 ms (FindLiveObjects: 0.383200 ms CreateObjectMapping: 0.225100 ms MarkObjects: 2.755200 ms  DeleteObjects: 0.057800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

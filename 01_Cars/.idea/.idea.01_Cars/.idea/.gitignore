@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/contentModel.xml
+/modules.xml
+/.idea.01_Cars.iml
+# Datasource local storage ignored files
+/../../../../../../../:\Utiles y Programas\1.Unity\01_Cars\.idea\.idea.01_Cars\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
