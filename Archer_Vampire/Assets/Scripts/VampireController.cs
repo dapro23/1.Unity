@@ -5,13 +5,19 @@ using UnityEngine;
 
 public class VampireController : MonoBehaviour
 {
-    [SerializeField] private bool hit = false;
-    
+    //[SerializeField] private bool hit = false;
     private Animator _animator;
-
+    private GameObject player;
+    private Vector3 direction;
     private void Start()
     {
         _animator = GetComponent<Animator>();
+        player = GameObject.FindWithTag("Player");
+    }
+
+    private void Update()
+    {
+        direction = (player.transform.position - this.transform.position).normalized;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -26,5 +32,9 @@ public class VampireController : MonoBehaviour
         
         
     }
-    
+
+    private void FixedUpdate()
+    {
+        transform.LookAt(player.transform);
+    }
 }

@@ -292,6 +292,9 @@
      <Reference Include="Unity.Analytics.Tracker">
      <HintPath>D:/Utiles y Programas/1.Unity/04_Balls/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
      </Reference>
+     <Reference Include="clipper_library">
+     <HintPath>D:/Utiles y Programas/1.Unity/04_Balls/Library/PackageCache/com.unity.cinemachine@2.7.2/Runtime/ThirdParty/clipper_library.dll</HintPath>
+     </Reference>
      <Reference Include="netstandard">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.0b7/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
      </Reference>
@@ -687,6 +690,12 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>D:/Utiles y Programas/1.Unity/04_Balls/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="com.unity.cinemachine.editor">
+     <HintPath>D:/Utiles y Programas/1.Unity/04_Balls/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Cinemachine">
+     <HintPath>D:/Utiles y Programas/1.Unity/04_Balls/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
