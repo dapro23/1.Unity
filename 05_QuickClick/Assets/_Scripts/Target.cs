@@ -8,9 +8,15 @@ using Random = UnityEngine.Random;
 public class Target : MonoBehaviour
 {
     private Rigidbody _rigidbody;
+
+    private GameManager _gameManager;
+
+    [SerializeField] private ParticleSystem explosion;
    
     void Start()
     {
+        _gameManager = FindObjectOfType<GameManager>();
+        
         float force = Random.Range(12, 16);
         _rigidbody = GetComponent<Rigidbody>();
         _rigidbody.AddForce(Vector3.up*force, ForceMode.Impulse);
@@ -29,14 +35,33 @@ public class Target : MonoBehaviour
 
     private void OnMouseEnter()
     {
+        if (this.CompareTag("Death"))
+        {
+            _gameManager.UpdateScore(-15);
+        }
+        else
+        {
+            _gameManager.UpdateScore(5);
+        }
         Destroy(gameObject);
+        Instantiate(explosion, transform.position, transform.rotation);
+        
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("KillZone"))
         {
-            Destroy(gameObject);
+            if (this.CompareTag("Death"))
+            {
+                Destroy(gameObject);
+                _gameManager.UpdateScore(-10);
+            }
+            else
+            {
+                Destroy(gameObject);
+                _gameManager.UpdateScore(-5);
+            }
         }
     }
 }
