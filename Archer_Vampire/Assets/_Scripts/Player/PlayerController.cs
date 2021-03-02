@@ -58,7 +58,7 @@ public class PlayerController : MonoBehaviour
         jumpInput = Input.GetAxis("Jump");
         
         
-        if (Input.GetKeyDown(KeyCode.Joystick1Button0))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             shoot = true;
             //shoot = Input.GetAxis("Fire1");

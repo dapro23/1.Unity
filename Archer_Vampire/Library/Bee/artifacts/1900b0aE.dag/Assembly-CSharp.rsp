@@ -320,12 +320,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
-"Assets/Scripts/ArrowController.cs"
-"Assets/Scripts/ArrowSpawnManager.cs"
-"Assets/Scripts/CheckCollisions.cs"
-"Assets/Scripts/Player/FollowPlayer.cs"
-"Assets/Scripts/Player/PlayerController.cs"
-"Assets/Scripts/VampireController.cs"
+"Assets/_Scripts/ArrowController.cs"
+"Assets/_Scripts/ArrowSpawnManager.cs"
+"Assets/_Scripts/CheckCollisions.cs"
+"Assets/_Scripts/Player/FollowPlayer.cs"
+"Assets/_Scripts/Player/PlayerController.cs"
+"Assets/_Scripts/VampireController.cs"
 -langversion:8.0
 
 /deterministic

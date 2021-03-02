@@ -41,12 +41,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Player\FollowPlayer.cs" />
-     <Compile Include="Assets\Scripts\VampireController.cs" />
-     <Compile Include="Assets\Scripts\CheckCollisions.cs" />
-     <Compile Include="Assets\Scripts\ArrowSpawnManager.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\ArrowController.cs" />
+     <Compile Include="Assets\_Scripts\Player\FollowPlayer.cs" />
+     <Compile Include="Assets\_Scripts\Player\PlayerController.cs" />
+     <Compile Include="Assets\_Scripts\ArrowController.cs" />
+     <Compile Include="Assets\_Scripts\VampireController.cs" />
+     <Compile Include="Assets\_Scripts\CheckCollisions.cs" />
+     <Compile Include="Assets\_Scripts\ArrowSpawnManager.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.0b7/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -635,8 +635,14 @@
      <Reference Include="Unity.VisualScripting.Flow.Editor">
      <HintPath>D:/Utiles y Programas/1.Unity/Archer_Vampire/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Cinemachine">
+     <HintPath>D:/Utiles y Programas/1.Unity/Archer_Vampire/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VSCode.Editor">
      <HintPath>D:/Utiles y Programas/1.Unity/Archer_Vampire/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="com.unity.cinemachine.editor">
+     <HintPath>D:/Utiles y Programas/1.Unity/Archer_Vampire/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>D:/Utiles y Programas/1.Unity/Archer_Vampire/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -679,12 +685,6 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>D:/Utiles y Programas/1.Unity/Archer_Vampire/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="com.unity.cinemachine.editor">
-     <HintPath>D:/Utiles y Programas/1.Unity/Archer_Vampire/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Cinemachine">
-     <HintPath>D:/Utiles y Programas/1.Unity/Archer_Vampire/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -14,13 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Scenes/Demo.unity
-    - Assets/Scripts/Player/PlayerController.cs
-    - Assets/Scripts/VampireController.cs
-    - Packages/manifest.json
-    - Packages/packages-lock.json
+    - Assets/_Scripts.meta
+    - Assets/_Scripts/ArrowController.cs
+    - Assets/_Scripts/ArrowController.cs.meta
+    - Assets/_Scripts/ArrowSpawnManager.cs
+    - Assets/_Scripts/ArrowSpawnManager.cs.meta
+    - Assets/_Scripts/CheckCollisions.cs
+    - Assets/_Scripts/CheckCollisions.cs.meta
+    - Assets/_Scripts/Player.meta
+    - Assets/_Scripts/Player/FollowPlayer.cs
+    - Assets/_Scripts/Player/FollowPlayer.cs.meta
+    - Assets/_Scripts/Player/PlayerController.cs
+    - Assets/_Scripts/Player/PlayerController.cs.meta
+    - Assets/_Scripts/VampireController.cs
+    - Assets/_Scripts/VampireController.cs.meta
     - 
-    m_Values: 000000000000
+    m_Values: 010101010101010101010101010101
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
